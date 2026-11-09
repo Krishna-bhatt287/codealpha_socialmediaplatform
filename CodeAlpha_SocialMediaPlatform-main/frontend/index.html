@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>CodeAlpha Social</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+
+    <div class="logo">
+
+        📱 CodeAlpha Social
+
+    </div>
+
+
+
+    <div class="nav-right">
+
+
+        <a href="profile.html">
+            Profile
+        </a>
+
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+
+    </div>
+
+
+</nav>
+
+
+
+
+<!-- MAIN CONTAINER -->
+
+<div class="main-container">
+
+
+
+    <!-- WELCOME CARD -->
+
+    <div class="welcome-card">
+
+
+        <div class="avatar">
+
+            👤
+
+        </div>
+
+
+        <div>
+
+            <h2>
+                Welcome Back 👋
+            </h2>
+
+            <p>
+                Share your thoughts with the community
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- CREATE POST -->
+
+    <div class="create-card">
+
+
+        <h3>
+            Create Post
+        </h3>
+
+
+        <textarea
+        id="postInput"
+        placeholder="What's on your mind?">
+        </textarea>
+
+
+
+        <button 
+        class="post-btn"
+        onclick="createPost()">
+
+            🚀 Post
+
+        </button>
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- POSTS AREA -->
+
+
+    <div id="posts">
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
